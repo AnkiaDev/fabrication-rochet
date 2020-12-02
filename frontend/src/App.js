@@ -1,11 +1,21 @@
-import React from 'react';
+import React from "react";
+import { Container } from "react-bootstrap";
+import Header from "./components/Headers";
+import Footer from "./components/Footer";
+import ShopScreen from "./screens/ShopScreen";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Bienvenue chez Fabrication Rochet</h1>
-    </div>
+    <>
+      <Header />
+      <main>
+        <Container>
+          <ShopScreen />
+        </Container>
+      </main>
+      <Footer />
+    </>
   );
-}
+};
 
 export default App;
