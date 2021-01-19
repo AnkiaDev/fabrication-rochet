@@ -5,3 +5,25 @@ body {
 main {
   min-height: 80vh;
 }
+
+/* Card section */
+.cardheight {
+  min-height: 400px;
+  max-height: 400px;
+}
+
+.card-title {
+  height: 42px;
+}
+.card-title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+h3 {
+  padding: 0.5rem 0;
+}
