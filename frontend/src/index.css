@@ -6,6 +6,11 @@ main {
   min-height: 80vh;
 }
 
+/* NavBar section */
+.custom-bg {
+  background-color: #c8c7c5;
+}
+
 /* Card section */
 .cardheight {
   min-height: 400px;

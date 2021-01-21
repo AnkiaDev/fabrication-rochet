@@ -5,7 +5,12 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 const Headers = () => {
   return (
     <header>
-      <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
+      <Navbar
+        className="custom-bg"
+        variant="light"
+        expand="lg"
+        collapseOnSelect
+      >
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>Fabrication Rochet</Navbar.Brand>

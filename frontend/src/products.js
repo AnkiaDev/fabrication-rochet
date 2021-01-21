@@ -1,6 +1,7 @@
 const products = [
   {
     _id: "1",
+    type: "Accessoire",
     name: "Pochon en crochet",
     image: "/images/pochon_crochet.jpg",
     description:
@@ -8,12 +9,13 @@ const products = [
     brand: "",
     category: "Ustensiles",
     price: 10,
-    countInStock: 10,
+    countInStock: 0,
     rating: 4.5,
     numReviews: 12,
   },
   {
     _id: "2",
+    type: "Accessoire",
     name: "Pochette en Lin",
     image: "/images/pochette_lin.jpg",
     description:
@@ -27,6 +29,7 @@ const products = [
   },
   {
     _id: "3",
+    type: "Accessoire",
     name: "Pochon en lin enduit",
     image: "/images/pochon_enduit.jpg",
     description:
@@ -40,6 +43,7 @@ const products = [
   },
   {
     _id: "4",
+    type: "Accessoire",
     name: "Porte-savon en aulne massif - feuille",
     image: "/images/porte_savon_feuille.jpg",
     description:
@@ -53,6 +57,7 @@ const products = [
   },
   {
     _id: "5",
+    type: "Accessoire",
     name: "Porte-savon en aulne massif",
     image: "/images/porte_savon_massif.jpg",
     description:
@@ -66,6 +71,7 @@ const products = [
   },
   {
     _id: "6",
+    type: "Savon",
     name: "Savon Ménager",
     image: "/images/savon_menager.jpg",
     description: "Gros savon",
