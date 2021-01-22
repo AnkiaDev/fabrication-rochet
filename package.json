@@ -1,0 +1,19 @@
+{
+  "name": "fabrication-rochet",
+  "version": "1.0.0",
+  "description": "MERN e-shop app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnkiaDev/fabrication-rochet.git"
+  },
+  "author": "AnkiaDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnkiaDev/fabrication-rochet/issues"
+  },
+  "homepage": "https://github.com/AnkiaDev/fabrication-rochet#readme"
+}
