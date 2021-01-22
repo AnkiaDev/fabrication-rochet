@@ -4,6 +4,7 @@
   "description": "MERN e-shop app",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon backend/server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AnkiaDev/fabrication-rochet/issues"
   },
-  "homepage": "https://github.com/AnkiaDev/fabrication-rochet#readme"
+  "homepage": "https://github.com/AnkiaDev/fabrication-rochet#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
