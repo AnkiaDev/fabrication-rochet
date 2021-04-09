@@ -12,20 +12,22 @@ import CartScreen from "./screens/CartScreen";
 
 const App = () => {
   return (
-    <Router>
-      <Header />
-      <main>
-        <Container>
-          <Route path="/" component={HomeScreen} exact />
-          <Route path="/shop" component={ShopScreen} />
-          <Route path="/product/:id" component={ProductScreen} />
-          <Route path="/cart/:id?" component={CartScreen} />
-          <Route path="/about" component={AboutScreen} />
-          <Route path="/login" component={LoginScreen} />
-        </Container>
-      </main>
-      <Footer />
-    </Router>
+    <div>
+      <Router>
+        <Header />
+        <main>
+          <Container>
+            <Route path="/" component={HomeScreen} exact />
+            <Route path="/shop" component={ShopScreen} />
+            <Route path="/product/:id" component={ProductScreen} />
+            <Route path="/cart/:id?" component={CartScreen} />
+            <Route path="/about" component={AboutScreen} />
+            <Route path="/login" component={LoginScreen} />
+          </Container>
+        </main>
+        <Footer />
+      </Router>
+    </div>
   );
 };
 

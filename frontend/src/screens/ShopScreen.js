@@ -21,7 +21,6 @@ const ShopScreen = () => {
   // Components
   return (
     <ListGroup variant="flush">
-      <h1>Boutique</h1>
       {loading ? (
         <Loader />
       ) : error ? (

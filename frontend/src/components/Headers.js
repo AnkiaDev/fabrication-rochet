@@ -1,10 +1,11 @@
 import React from "react";
 import { LinkContainer } from "react-router-bootstrap";
 import { Container, Nav, Navbar } from "react-bootstrap";
+import Logo from "../images/logo.png";
 
 const Headers = () => {
   return (
-    <header>
+    <header className="header">
       <Navbar
         className="custom-bg"
         variant="light"
@@ -13,7 +14,14 @@ const Headers = () => {
       >
         <Container>
           <LinkContainer to="/">
-            <Navbar.Brand>Fabrication Rochet</Navbar.Brand>
+            <Navbar.Brand>
+              <img
+                src={Logo}
+                alt=""
+                height="100"
+                className="d-inline-block align-top"
+              />
+            </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

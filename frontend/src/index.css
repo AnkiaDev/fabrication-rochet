@@ -1,21 +1,34 @@
 body {
   margin: 0;
+  background-image: "./images/background.png";
 }
 
 main {
+  margin-top: 110.75px;
   min-height: 80vh;
 }
 
 /* NavBar section */
+.header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+a .nav-link {
+  color: #e8e2dc;
+}
 .custom-bg {
-  background-color: #c8c7c5;
+  background: linear-gradient(to right, #a89076, 80%, #d7cab9);
 }
 
 /* Card section */
-.cardheight {
+/* .cardheight {
   min-height: 400px;
   max-height: 400px;
-}
+} */
 
 .card-title {
   height: 42px;
