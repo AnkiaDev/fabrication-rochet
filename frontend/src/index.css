@@ -56,6 +56,12 @@ h2 {
   padding: 0.5rem 0;
 }
 
+/* ShopScreen section */
+.card-shopscreen:hover {
+  @webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 /* product screen section */
 
 .product-screen-img {

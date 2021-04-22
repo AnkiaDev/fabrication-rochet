@@ -10,6 +10,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url(https://fonts.googleapis.com/css2?family=Bad+Script&family=Petit+Formal+Script&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap);
 :root {
   --blue: #007bff;
@@ -78,7 +79,7 @@ body {
   line-height: 1.5;
   color: #55595c;
   text-align: left;
-  background-image: url("./images/Fond.jpg");
+  background-image: url("./images/Fond2v.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -4392,6 +4393,9 @@ input[type="submit"].btn-block {
 }
 .card-title {
   margin-bottom: 0.75rem;
+  font-family: "Petit Formal Script", cursive;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 .card-subtitle {
   margin-top: -0.375rem;
@@ -6118,7 +6122,7 @@ button.bg-dark:hover {
   border-radius: 0.2rem !important;
 }
 .rounded {
-  border-radius: 0.25rem !important;
+  border-radius: 0.5rem !important;
 }
 .rounded-top {
   border-top-left-radius: 0.25rem !important;

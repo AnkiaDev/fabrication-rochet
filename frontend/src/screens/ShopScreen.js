@@ -16,7 +16,7 @@ const ShopScreen = () => {
   }, [dispatch]);
 
   // Creating Shop Category
-  const categoryList = ["Accessoire", "Savon"];
+  const categoryList = ["Accessoires", "Savons"];
 
   // Components
   return (
@@ -34,7 +34,7 @@ const ShopScreen = () => {
                 .filter((product) => product.category === category)
                 .map((product) => (
                   <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
-                    <Product product={product} />
+                    <Product product={product} className="card-shopscreen" />
                   </Col>
                 ))}
             </Row>
