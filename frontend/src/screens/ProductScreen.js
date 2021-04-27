@@ -43,7 +43,7 @@ const ProductScreen = ({ history, match }) => {
         <Row>
           <Col md={6}>
             <Image
-              className="product-screen-img"
+              className="product-screen-img rounded shadow"
               src={product.image}
               alt={product.name}
               fluid
