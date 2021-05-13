@@ -68,3 +68,9 @@ h2 {
   width: 450px;
   height: 450px;
 }
+
+/* Shipping screen section */
+
+.shippingForm {
+  width: 2rem;
+}

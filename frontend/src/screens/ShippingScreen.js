@@ -1,7 +1,8 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import FormContainer from "../components/FormContainer";
+import CheckoutSteps from "../components/CheckoutSteps";
 import { saveShippingAddress } from "../actions/cartActions";
 
 const ShippingScreen = ({ history }) => {
@@ -33,7 +34,8 @@ const ShippingScreen = ({ history }) => {
   };
 
   return (
-    <FormContainer>
+    <FormContainer className="shippingForm">
+      <CheckoutSteps step1 step2 />
       <h1>Livraison</h1>
       <Form onSubmit={submitHandler}>
         <Form.Group controlId="address">
@@ -52,7 +54,6 @@ const ShippingScreen = ({ history }) => {
             type="text"
             placeholder="Appartement, étage..."
             value={addressComplement}
-            required
             onChange={(e) => setAddressComplement(e.target.value)}
           ></Form.Control>
         </Form.Group>
